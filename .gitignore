@@ -1,0 +1,11 @@
+.venv/
+
+**/__pycache__/
+*.pyc
+*.pyd
+
+data/
+
+ml_model/ 
+
+example_for_test.txt
