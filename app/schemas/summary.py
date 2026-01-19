@@ -24,6 +24,9 @@ class SummaryResponse(BaseModel):
     summary: str = Field(
         description="Суммаризированный текст, сгенерированный ML-моделью."
     )
+    summarized_text_length: int = Field(
+        description="Длина сгенерированного суммаризированного текста."
+    )
     model_name: str = Field(
         description="Имя модели, которая выполнила суммаризацию."
     )

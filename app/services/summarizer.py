@@ -41,7 +41,7 @@ class SummarizerService:
         result = _summarizer_pipeline(
             text, 
             max_length=150, 
-            min_length=50,
+            min_length=30,
             num_beams=2,
             early_stopping=True
         )
