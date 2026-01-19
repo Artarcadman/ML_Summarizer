@@ -1,8 +1,8 @@
 from transformers import pipeline
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-GLOBAL_MODEL_NAME = os.path.join(BASE_DIR, "ml_model")
+
+GLOBAL_MODEL_NAME = "Artemkaaa/t5-small-summarizer-xlsum"
 
 
 _summarizer_instance = None
@@ -20,7 +20,7 @@ class SummarizerService:
         if _summarizer_pipeline is not None:
             return
 
-        print(f"Загрузка модели из папки: {self.model_name}")
+        print(f"Загрузка модели из репозитория: {self.model_name}")
         
         _summarizer_pipeline = pipeline(
             "summarization", 
