@@ -52,7 +52,7 @@
 
 * **model_name: Идентификатор используемой модели**
 
-![Окно response](refs/image2.png)
+![Окно response](refs/image_2.png)
 
 ## Результаты обучения
 
