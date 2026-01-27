@@ -9,7 +9,7 @@
 ### Ключевые особенности
 * **Framework:** FastAPI (асинхронная обработка).
 * **ML Core:** Hugging Face Transformers.
-* **Architecture:** Singleton-паттерн для загрузки модели (экономия RAM).
+* **Architecture:** Singleton-паттерн для загрузки модели.
 * **Validation:** Строгая типизация данных через Pydantic.
 * **Storage:** Веса модели автоматически загружаются из [Hugging Face Hub](https://huggingface.co/Artemkaaa/t5-small-summarizer-xlsum).
 
